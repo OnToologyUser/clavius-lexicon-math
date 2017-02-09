@@ -1,0 +1,1637 @@
+@prefix :        <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix Ontology1378394921444:  <http://www.semanticweb.org/ontologies/2013/8/Ontology1378394921444.owl#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Circular_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Dinostratus_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MULTILATERA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_perpendicularis>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PERPENDICULARIS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. " ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ELLIPSIS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_mixta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectilineus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:float ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#obtuse_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_obtusus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#spherical_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_sphaeralis> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MIXTA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isosceles_triangle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Isosceles_Triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_isosceles> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Spheroid>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#platonic_solid>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Platonic_Solid> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#corpus_platonicum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AEQUILATERUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_SOLIDA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#sphaera>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#SPHAERA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#sphere> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_PLANA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cubus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#planum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CONCHOIDEOS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#parabola>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Parabola> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#parabole> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#planum> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Formal node" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isRelatedTo>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Encodes a generic abstract relationship that links the source term to the target term" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#CONCEPT> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangulum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTUS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. 
+Usus frequentissimus reperitur in geometria anguli recti, et linea perpendicularis, nec non anguli obtusi, et acuti, propterea docet hoc loco Euclides, quisnam angulus rectilineus apud Geometras appelletur rectus, et quaenam linea perpendicularis… Non enim alius dari potest angulus rectilineus, pareter rectum, obtusum, et  acutum. … Itaque ut in geometria concludamus angulum aliquem esse rectum, aut lineam, quae ipsum efficit, ad aliam esse perpendicularem, requiritur, et sufficit, ut probemus angulum, qui est ei deinceps. Aequalem illi esse. (Eucl. El. 26)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_RECTILINEA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Parabola>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#follows>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:comment "Encodes linear or temporal order " ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyponym>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      owl:inverseOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#semicirculus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#SEMICIRCULUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Semicirculus vero est figura, qaue continetur sub diametro, & sub ea linea, quae de circuli peripheria aufertur. " ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#semicircle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#PARALLELOGRAMMUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInstrument>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is an event SemU and <SemU2> is the typical instrument, vehicle or device which is used to perform this event. " .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasDomainOfInterest>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 is a domain of knowledge that is of interest of SemU_1 (Human)" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      owl:disjointWith <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#lenght>
+      a       owl:DatatypeProperty ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:onDatatype xsd:float ;
+                owl:withRestrictions
+                        ([ xsd:minExclusive 0
+                          ])
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_solidus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SOLIDUS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt et alia duo genera angulorum, quorum prius solidos comprehendit, de quibus Euclides differit in Stereometria, quique in corporibus existunt; posterius vero sphaerales, qui in superficie sphaere constituuntue ex circulorum maximorum circumferentis, er de quibus copiose agitur in sphaericis elementis Menelai. Horum autem omnium explicatio in alium locum a nobis reiicitur, cum hic de solis planis angulis sit futurus sermo.  (Eucl. El. 26)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#surface>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Surface> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_obtusus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_OBTUSUS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Obtusus angulus est, qui recto maior est. (Eucl. El. 25)
+Obtusus vero, et acutus augeri possunt, et minui infinitis modis, cum ab illa inflexibilitate lineae perpendicularis infinitis etiam modis recta linea possit recedere, ut perspicuum est. (Eucl. El. 26)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#obtuse_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_CURVILINEA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#diameter_circuli>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#DIAMETER_CIRCULI> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Diameter autem circuli, est recta quaedam linea per centrum ducta, & ex utraque parte in circuli peripheriam terminata, quae circulum bifariam secat. 
+ […] unde plures assignari potuerunt in circulo diametri, unum vero centrum duntaxat. Quod autem Euclides addit, circulum utpote per centrum, ducitur. Hinc enim fit, ut propter directum diametri per centrum transitum, utrinque aequales circumferentiae abscindantur. (dimostrato da Talete)… […] Ex hac demonstratione constat, diametrum non solum circumferentia, verumetiam totam aream circoli ecare binaria. (28)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#circle_diameter> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_isosceles>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ISOSCELES> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Isosceles autem est, quod duo tantum aequalia habet latera.[ …] 
+Ex hanc aequalitate duorum laterum trianguli Isoscelis effcitur, duos angulos super reliquum latus etiam esse aequales, ut demonstrabit Euclides propos. 5. huius libri. (El. Eucl. 29)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#isosceles_triangle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+      a       owl:FunctionalProperty , owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is the hyperonym of <SemU1>. The value of this relation can be given, for example, by a EuroWordNet hyperonym or by a dictionary superordinate" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#conchoid_line>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conchoid_Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#straight_line>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_recta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TERMINUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Sphere>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isCausedby>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is a phenomenon or natural event which is produced by <SemU2>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#CentreOfCircle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Point> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#SOLIDUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#square>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Square> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#quadratum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figure>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#SOLIDUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ELLIPSIS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis_C> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedResult>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Links process denoting terms to the resulting entities" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_aequilaterum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AEQUILATERUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Trilaterarum autem figurarum, aequilaterum est triangulum, quod tria latera habet aequalia. […] Porro ex aequalitate omnium trium laterum trianguli equilateri infertur, omnes tres eius angulos aequales quoque esse, ceu ad quintam propositionem huius libri demonstrabimus. (El. Eucl. 29) " ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#equilateral_triangle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+      a       owl:TransitiveProperty , owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Relates lexical units that share the same meaning" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#QUADRATUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#corpus_platonicum>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#CORPUS_PLATONICUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Solida illa quinque regolaria, quae corpora Platonica dici solent. (Eucl. El. 18)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#platonic_solid> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#CENTRUM_CIRCULI>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixtilinear_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#RHOMBUS> , owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rhombus> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Rhombus autem, quae equilatera, sed rectangula non est. […] habet enim omnia latera aequalia, angulos vero non rectos, et inaequales, quamis bini oppositi inter se aequales existant. (El. Eucl. 31)  " ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_mixtus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_MIXTUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. (El. Eucl. 26)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#mixtilinear_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ISOSCELES>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#multilateral_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Multilateral_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_multilatera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isSourceOf>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is the source or origin of <SemU1>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_rectilinea>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_RECTILINEA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Rectilineae figurae sunt, quae sub rectis lineis continentur. " ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPart>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> has prototypically <SemU2> as one of its parts" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#concerns>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is a phenomenon, event or situation that typically concerns of affects <SemU2>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isOpposedTo>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Encodes a relationship of  opposition holding between two phenomena or entities" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#PLANUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          owl:onDatatype xsd:integer ;
+                          owl:withRestrictions
+                                  ([ xsd:maxExclusive 90
+                                    ])
+                        ] ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees>
+              ] ;
+      owl:disjointWith <http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle> ;
+      owl:equivalentClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#quadratum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#QUADRATUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Quadrilaterarum autem figurarum, quadratum quidem est, quod & aequilaterum, & rectangulum est. 
+[…] Prima figura quadrilatera dicitur Quadratum, cuius quidem omnia quatuor latera inter se aequalia existunt, omnesque anguli recti. Itaque quadrangulum aequilaterum, et non rectangulum. (El. Eucl. 30)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#square> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#SPHAERA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_OBTUSUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#CONCEPT>
+      a       owl:Class .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Convex_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          owl:onDatatype xsd:float ;
+                          owl:withRestrictions
+                                  ([ xsd:maxExclusive 180
+                                    ])
+                        ] ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees>
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONVEXUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_PLANA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Platonic_Solid>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#scalene_triangle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Scalene_Triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_scalenum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#point>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Point> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#punctum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OBTUSANGULUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Triangulum Amblygonium, sive obtusangulum esse quoque potest vel Isosceles, vel scalenum, ut in his figuris cernitur, non autem aequilaterum, alias eadem ratione essent omnes tre anguli per ea, quae propos. 5. Ostendemus, aequales. Ideoque cum unus ponatur obtusus, omnes res obtusi, quod multo magis pugnat cum propos. 17. Et 32. Huius libri. (El. Eucl. 30)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM>
+      a       owl:Class .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#curved_line>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curved_Line> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_curva> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "The source semantic unit is a constitutive element of the target unit" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectilineus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTILINEUS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Cum autem, quae angulum continent lineae, rectae fuerint, rectilineus ille angulus appellatur. (El. Eucl 26)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Point>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#parabole>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#PARABOLE> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#parabola> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#RECTANGULUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONCAVUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Curved_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_CURVILINEA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Ex quo perspicuum est, figuras planas curvis lineis comprehensas, dici curvilineas. (El. Eucl. 29)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#circulus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#CIRCULUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Circulus, est figura plana sub una linea comprehensa, quae peripheria appellatur, ad quam ab uno puncto eorum, quae intra figuram sunt posita, cadentes omnes rectae lineae inter se sunt aequales. 
+Definit hic circulum, figuram inter planas perfectissimam, docens figuram illam planam, quae unica linea circumscribitur, ad quam lineam omnes rectae lineae ductae ab uno puncto, quod intra figuram existit, sint aequales, vocari circulum. […] Qua vero ratione in circulo punctum illud medium reperiri debeat, docebit Euclides propositione 1. Tertii lib. Adiungit quoque Euclides, lineam estrema circuli, qualis est ABC, appellari Peripheriam, seu, ut Latini exponunt, circumferentiam. Potest circulus etiam hac ratione describi. Circulus est figura plana, quae describitur a linea recta finita circa alterum punctum extremum quiescens circumducta, cum in eundem cursus locum restituta fuerit, unde moveri coeperat.  […]
+Igitur Ellipsis, quamvis figura sit plana una linea circumscripta, tamen quia in ea non datur punctum, a quo ad ipsam lineam terminantem omnes rectae lineae sint aequales, circulus dici nequit.
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#circle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_SCALENUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PERPENDICULARIS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary> ;
+                owl:qualifiedCardinality
+                        "3"^^xsd:nonNegativeInteger
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#relates>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#planum>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#PLANUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogrammum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#PARALLELOGRAMMUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Parallelogrammum est figura quadrilatera, cuius bina opposita latera sunt paralella, seu aequidistantia. […] Sunt autem quatuor solum parallelogramma; quadratum, figura altera parte longior, Rhombus, et Rhomboides, quorum priora duo rectangula, quod omnes angulos habeant rectos, posteriora vero duo non rectangula vocantur, quod nullus in eis angulus esista rectus. […] Itaque possumus quadrilateras figuras, (ut et antiqui Geometrae) dividere in Parallelogrammum, et Trapezium. Parallelogrammum cursus in rectangulum, at aequilaterum, quale est  Quadratum : in nec rectangulum, nec aequilaterum, quale est Rhomboides; in rectangulum, sed non aequilaterum, quali est figura altera parte longior. Et in aequilateru, sed non rectangulum, cuiusmodi est Rhombus. (El. Eucl. 32)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogram> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations>
+      a       owl:ObjectProperty .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_RECTANGULUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Multilateral_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:minQualifiedCardinality
+                        "5"^^xsd:nonNegativeInteger ;
+                owl:onClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary>
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OBTUSANGULUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasNearSynonym>
+      a       owl:TransitiveProperty , owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Relates lexical units with very similar cognitive and denotational meaning" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_planus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PLANUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#concerns>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Planus vero angulus, est duarum linearum in plano se mutuo tangentium, et non in directum iacentium, alterius al alteram inclinatio. 
+Declarat, quidam sit angulus planus, dicens: Quandocunque duae linae in plana aliqua superficie invicem concurrunt, et non in directum constituuntur, efficietur ex huiusmodi concursu, seu inclinatione unius ad alteram, angulus, qui dicitur planus, propterea quod in plana constituatur superficie. (El.E. 25) … Itaque ut linae rectae efficiant angulum, necesse est, ut post concursum productae se mutuo secent (EE 26)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole_C>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Hyperbole> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#spheroid>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Spheroid> , owl:NamedIndividual .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/>
+      a       owl:Ontology .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_helica>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_HELICA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole,Parabole,Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; linea Conchoideos, de qua Nicomedes; linea Helica, de qua Archimedes in libro de lineis spiralibus tractationem instituit, et aliae huiusmodi. In solido, seu superficie curva sunt alterius generis lineae helicae, quam ea ab Archimede descripta, qualis est illa, quae circa cylindrum aliquem convoluitur; nec non ea, quae circa conum existit, vel etiam quae circa sphaeram, cuiusmodi sunt spirae illae, quas sol describit ab ortu in occasum , ut in sphaera docuimus. (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#helicar_line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ACUTANGULUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Omne triangulum oxygonium, sive acutangulum, potest esse vel aequilaterum, vel isosceles, vel scalenum, ut cernere licet in triangulis, quae in specibus prioris divisionis spectanda exhibuimus, ne eadem hic frustra repetantur. (El. Eucl 30)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium> ;
+      owl:sameAs <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FLUXUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Figura est, quae sub aliquo, vel aliquibus terminis comprehenditur. 
+ Non omnis quantitas terminos possidens Figura dici potest, ne lineam fnitam figuram appellare cogamur : Sed ea solum magnitudines, quae latitudinem habent, nempe superficies terminatae. Et quae profunditatem adeptae quoque sunt, t solida finita, Figurae nomine appellabuntur…. Itaque termini debent quantitatem, quae figura dicitur,a mbire, et non tantum terminare. … Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cbus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae.
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRAPEZIUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#INCLINATIO>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle_Diameter>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#CORPUS_PLATONICUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#terminus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERMINUS> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          owl:onDatatype xsd:integer ;
+                          owl:withRestrictions
+                                  ([ xsd:minExclusive 90
+                                    ])
+                        ] ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees>
+              ] ;
+      owl:disjointWith <http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_acutus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_ACUTUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Acutus vero, qui minor est recto. (Eucl. El. 25). 
+Obtusus vero, et acutus augeri possunt, et minui infinitis modis, cum ab illa inflexibilitate lineae perpendicularis infinitis etiam modis recta linea possit recedere, ut perspicuum est. (Eucl. El. 26)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#acute_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isResultOf>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is an entity which is the result, effect or by-product of the event expressed by <SemU2>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary> ;
+                owl:qualifiedCardinality
+                        "4"^^xsd:nonNegativeInteger
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SOLIDUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#indirectTelic>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_1 denotes the ‘instrument’ (either body part or phenomenon) serving for SemU_2. SemU_1 is either the subject of a verb which (generally) corresponds to the verbal base of  SemU_2 or its instrumental complement" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_curvilineus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CURVILINEUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. (Eucl. El 26)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sense opposition between pairs of nouns or verbs" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#sphere>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Sphere> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#sphaera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#PARABOLE>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Acutangle_Triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasMeronym>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      owl:inverseOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHolonym> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AMBLYGONIUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Amblygonium autem, quod obtusum angulum habet. 
+Triangulum Amblygonium, sive obtusangulum esse quoque potest vel Isosceles, vel scalenum, ut in his figuris cernitur, non autem aequilaterum, alias eadem ratione essent omnes tre anguli per ea, quae propos. 5. Ostendemus, aequales. Ideoque cum unus ponatur obtusus, omnes res obtusi, quod multo magis pugnat cum propos. 17. Et 32. Huius libri. (El. Eucl. 30)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasNearSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum> ;
+      owl:sameAs <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_line>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#point> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#dealsWith>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "For Domain_of_Knowledge entries, SemU_2 is a topic that the domain denoted by SemU_1 deals with" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTILINEUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#line>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#point> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Conchoid_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_concavus>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONCAVUS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. Ex hisce porro lineis possunt curvilinei anguli tribus variari modis, et mixti duobus, pro varia inclinatione, seu habitudine linearum curvarum, utpote secundum convexum, concavum, ceu in propositis angulis plane, et aperte perspicitur." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#concave_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_curva>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CURVA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#curved_line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LATUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#SEMICIRCULUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#resultingFrom>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_1 is the entity resulting from the activity denoted by SemU_2 " .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Isosceles_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ALTERA_PARTE_LONGIOR_FIGURA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtusangle_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CIRCULARIS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedInstrument>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 is the body_part through which SemU_1 is realized" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Ellipsis>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#semicircle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Semicircle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#semicirculus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Acutangle_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_TRILATERA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Trilaterae quidem, quae sub tribus. 
+Affirmans Euclides, eas rectilineas figuras dici trilateras, qaue tribus rectis lineis circumscribitur, aperte nobis annui, quonam modo triangulum definiri debeat. Cum enim in rectilineis figuris tot sint anguli, quo latera, seu rectae lineae, ex quibus constant, dicetur triangulum, figura tribus rectis lineis contenta, cuius omnes species iam iam adducentur. (29)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_perpendicularis> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasProperty>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_1 has SemU_2 as property (or as one of its properties)" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#concave_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Concave_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_concavus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_rectangulum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_RECTANGULUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Ad haec etiam, trilatera rum figurarum, rectangulum quide triangulum est, quod rectum angulum habet. (El. Eucl. 30)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#right_triangle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#helicar_line>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Helicar_Line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_helica> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations>
+      a       owl:ObjectProperty .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Rhombus>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram> ;
+      rdfs:subClassOf
+              [ a       owl:Class ;
+                owl:intersectionOf ([ a       owl:Restriction ;
+                            owl:onClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle> ;
+                            owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle> ;
+                            owl:qualifiedCardinality
+                                    "2"^^xsd:nonNegativeInteger
+                          ] [ a       owl:Restriction ;
+                            owl:onClass <http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle> ;
+                            owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle> ;
+                            owl:qualifiedCardinality
+                                    "2"^^xsd:nonNegativeInteger
+                          ])
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#causes>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> typically causes <SemU2> as part of its natural constitution" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Equilateral_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasOtherDenomination>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Relates a term to another denomination provided" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_QUADRILATERA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Quadrilaterae quidem, quae sub quator. τετράπλευρα δὲ τὰ ὑπὸ τεσσάρων (vedi def. precedente: rectilineae figurae)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_RECTA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#ALTERA_PARTE_LONGIOR_FIGURA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymComp>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is the complementary antonym of <SemU1>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#circle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#circulus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#SUPERFICIES>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezoid>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezium> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Hyperbole>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CURVILINEUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#right_triangle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Triangle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_rectangulum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#usedFor>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is the typical function of <SemU1>. This relation usually applies to instruments or devices to connect them with the activity in which they are used or to their typical purpose." .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#centrum_circuli>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#CENTRUM_CIRCULI> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Centrum circuli.  Docet, punctum  illud intra circulum,a  quo omnes lineae rectae ad circumferentiam ductae sunt aequales, appellari centrum circuli. […] Caeterum, ut punctum aliquod circuli dicatur centrum, satis est, ut ab beo tres duntaxat lineae accidentes in peripheriam sint aequales inter se, ut demonstrat Euclides propositione 9. Lib.3." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#centre_of_circle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isPartOf>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is a part of <SemU2>" ;
+      owl:inverseOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPart> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#circular_line>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Circular_Line> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_circularis> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_MIXTUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#centre_of_circle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#CentreOfCircle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#centrum_circuli> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_circularis>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CIRCULARIS> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualitatem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta : Si vero punctum fluens cogitetur in motu vacillare, atque hinc inde titubare, appellabitur linea descripta mixta : si denique punctum fluens in suo motu, non vacillet, sed in orbem feratur uniformi quodam motu, atque distantia certo aliquo puncto, circa quod fertur, vocabitur descripta illa linea, circularis. (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#circular_line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#implies>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Encodes a reciprocal direct implication holding between SemU_1 and SemU_2" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#SUPERFICIES> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Superficies est, quem longitudinem, latitudinem tantum habet. (24/25)
+Post lineam, quae est prima quantitatis continuae species, unicamque habet dimensionem, definit superficiem, quae secundam magnitudinis speciem constituit, additque priame dimensioni secondum longitudinem, alteram secundum latitudinem. Nam in superficie reperitur, non solo longitudo, ut in linea, verum etiam latitudo, sine tamen omni profunditate. (…) Alii describentes superficiem dicunt, eam esse corporis terminum : Alii vero, magnitudinem duobus constantem intervallis. Potest enm superficie dividi, et secari duo bus modis, uno quidem secundum longitudinem, altero evro secundum latitudinem. (Eucl. El. 24/25). Superficiei autem extrema, sunt lineae. (Eucl. El. 25)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#surface> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is composed of <SemU2>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_SOLIDA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cbus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_curvilineus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Scalene_Triangle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OXYGONIUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SPHAERALIS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#punctum>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#PUNCTUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Punctum est, cuius pars nulla est. Ante omia vero euclides more Mathematicorum rem propositam exorditur a principiis, initio facto a definitionibus, quarum prima punctum esplica, docens illud dici punctum in quantitate continua, quod nullas habet partes. Quae equidem definitio planius ac faciulius percipietur, si prius intelligamus, quantitatem continuam triplices habere partes, unam secondum longitudinem, alteras secundum latitudinem, et secundum profunditatem altitudinemve alteras ; quanquam non omnis quantitas omnes has partes habet, sed  quaedam unicas tantum secundum longitudinem; quaedam duplices, ita ut illis adiiciat partes etiam latitudinis; quidam denique praeter duplices has partes, tertias quoque altitudinis, sive profunditatis continet. Quantitas enim omnis continua aut longa solum est, aut longa simul, et lata, aut longa, lata atque profunda. Neque aliam dimensionem habere potest res ulla quanta, (…). Itaque quod in quantiate continua, sive magnitudine existit, intelligituraque sine omni parte, ita ut neque longum, neque latum, neque profundum esse cogitetur, (ut nimirum excludamus animam rationalem, Nunc vel Instans temporis, atque unitatem, quae etiam partes non habet) id appellatur ab euclide, atque a Geometris punctum. (...) Denique in magnitudine id concipi debet esse punctum, quod in numero unitas, quodque in tempore instans. Sunt enim et cncipienda individua. (Eucl. El. 23)
+
+Lineae autem termini, sunt puncta. 
+Docet, quaenam sint extrema lineae cuiuuis, seu termini, dicens lineam terminari, sive claudi utrinque punctis ; Non quod omnis linea terminos habeat; quomodo enim lineae infinitae terminos assignare poterimus? Qua etiam ratione in linea circulari extremum aliquod deprehendemus? Sed quod linea quaelibet habens extrema, in suis extremitatibus puncta recipiat. Ut superior linea AB, extrema habet puncta A, et B. idemque in omnibus lineis terminatis, ac fnitis intelligendum est, ita ut earum extremitates sola esse puncta cogitemus. (Eucl. El. 23)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#point> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_scalenum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_SCALENUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Scalenum vero est, quod tria inaequalia habet latera. (29)  […]
+Hic denique ex inaequalitate omnium laterum trianguli Scaleni colligitur omnium angulorum inaequalitas, ut ostendetur propos. 18. Huius 1. Lib. (El. Eucl. 29)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#scalene_triangle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogram>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogrammum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymGrad>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is the gradable antonym of <SemU1>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OXYGONIUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Oxygonium vero, quod tres habet acutos angulos.
+Omne triangulum Oxygonium, sive acutangulum, potest esse vel aequilaterum, vel isosceles, vel scalenum, ut cernere licet in triangulis, quae in speciebus prioris divisionis spectanda exhibuimus, ne eadem hic frustra repetantur. (El. Eucl. 30)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#convex_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Convex_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_convexus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#acute_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_acutus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_solidus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_ACUTUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_MIXTA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#FLUXUM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CURVA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Linea vero, longitudo latitudinis expers.
+Definit hic lineam, primam speciem magnitudinis, quam dicit esse quantitatem longam dutaxat, non autem latam intellige neque profundam. A qua enim quanti tate excluditur latitudo, ab eadem etiam necessario profunditas removetur, non autem contra. Lineam autem hanc, sive longitudinem absque latitudine, non absurde concipere, intelligerque poterimus ex termino loci alicuius partim illuminati, atque partim obumbrati. (…) Ut si punctum A, fluere ntelligatur ex A, in B, vestigium effectum AB, linea appellabitur, cum vere intervallum inter duo puncta A atque B, comprehensum sit longitudo quaedam carens omni latitudine, propterea quod punctum A, omni privatum dimensione, eam efficere nulla ratione potuerit. Hinc factum est, ut alii dixerint, lineam nil esse aliud, quam puncti fluxum : Alii, vero, magnitudinem uni cintentam intervallo. Potest enim linea unico tantum modo, utpote secundum longitudinem secari, atque dividi. (Eucl. El. 23)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasOtherDenomination>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangulum>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#RECTANGULUM> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Vel contra, rectangulum, et non aequilaterum, nequaquam quadratum appellabitur. (El. Eucl. 30) 
+Altera vero parte longior figura est, quae rectangula quidem, at aequilatera non est. (El. Eucl. 31)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#HYPERBOLE>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPurpose>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 encodes the purpose of the domain of knowledge or the activity denoted by SemU_1" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+      a       owl:AnnotationProperty .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees>
+      a       owl:FunctionalProperty , owl:DatatypeProperty ;
+      rdfs:domain <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:onDatatype xsd:integer ;
+                owl:withRestrictions
+                        ([ xsd:minInclusive 0
+                          ] [ xsd:maxInclusive 360
+                          ])
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#INCLINATIO> , owl:NamedIndividual .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isDerivedFrom>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU1> is derived from another object <SemU2> through a certain process of alteration" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_convexus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONVEXUS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. Ex hisce porro lineis possunt curvilinei anguli tribus variari modis, et mixti duobus, pro varia inclinatione, seu abitudine linearum curvarum, utpote secundum convexum, concavum, ceu in propositis angulis plane, et aperte perspicitur." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#convex_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_recta>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_RECTA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Recta linea est, quae ex aequo sua interiacet puncta.
+Triplex omnino est linea apud Mathematicos, recta, circularis, quam et curvam dicunt, et mixta, sive composita ex utraque. Ex his describit hoc loco Euclides lineam rectam, quam dicit esse eam, quae aequaliter inter sua puncta extenditur, hoc est, in qua nullum punctum intermedium ab extremis sursum, aut deorsum, vel huc, atque illuc deflectendo substulat; in qua denique nihil flexuosum reperitur. Hanc nobis ad viuum esprimi filum aliquod tenue sumam vi extentum : In eo enim omens partes mediae cum extremis aequalem obtinent situm, neque ulla est alia sublimior, aut umilio, sed omnes equabiliter inter extremos fines positae progrediuntur. Proclus hanc definitoionem exponens ait, tunc demum lineam aliquam ex aequo sua interiacere puncta, quando aequale occupa spatium ei quod inter sua situm est puncta exrema. (...)
+Plato rectam lineam pulchre sic definit : linea recta est, cuius media obumbrant extrema. (…); quod quidem non contingit in lineis non rectis… Archimeds vero ait, lineam rectam esse minimam earum, quae terminos habent eosdem; (…) Campanus denique describens rectam lineam, vocat eam brevissimam ex uno puncto in aliud extensionem.
+Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualiattem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta (...) (Eucl. El. 23)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#straight_line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_PERPENDICULARIS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#mixtilinear_angle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixtilinear_Angle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_mixtus> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezium>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#TRAPEZIUM> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Praeter has autem, reliquae quadrilaterae figurae, trapezia appellentur.  
+Reliquas omnes figuras quadrilateras, quae a praedictis quatuor differunt, ita ut neque latera omnia aequalia, neque omnes angulos aequales, seu rectos, neque latera bina opposita; neque angulos binos oppositos habeant inter sese aequales, generali vocabulo Trapezia nominat. (El. Eucl. 31)
+[...] Itaque possumus quadrilateras figuras, (ut et antiqui Geometrae) dividere in Parallelogrammum, et Trapezium... Trapeziorum quoque aliud quidem habet duo latera opposita parallela, alia vero minime; aliud autem nulla opposita latera habet paralella. (El. Eucl. 32)
+""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezoid> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_HELICA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#PUNCTUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Semicircle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#CIRCULUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtusangle_Triangle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum> , <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PLANUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#latus>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LATUS> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_figure>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_rectilinea> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_angle>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_planus> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isRelatedTo>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#surface> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_conchoideos>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CONCHOIDEOS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt autem plurima genera linearum mist rum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole,Parabole,Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; linea Conchoideos, de qua Nicomedes;(...). (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#conchoid_line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Square>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Concave_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:allValuesFrom
+                        [ a       rdfs:Datatype ;
+                          owl:onDatatype xsd:float ;
+                          owl:withRestrictions
+                                  ([ xsd:minExclusive 180
+                                    ])
+                        ] ;
+                owl:onProperty <http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees>
+              ] .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis_C>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Ellipsis> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#RHOMBUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_perpendicularis>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_PERPENDICULARIS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              """Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. 
+Usus frequentissimus reperitur in geometria anguli recti, et linea perpendicularis, nec non anguli obtusi, et acuti, propterea docet hoc loco Euclides, quisnam angulus rectilineus apud Geometras appelletur rectus, et quaenam linea perpendicularis… Non enim alius dari potest angulus rectilineus, pareter rectum, obtusum, et  acutum. … Itaque ut in geometria concludamus angulum aliquem esse rectum, aut lineam, quae ipsum efficit, ad aliam esse perpendicularem, requiritur, et sufficit, ut probemus angulum, qui est ei deinceps. Aequalem illi esse. (Eucl. El. 26)""" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ACUTANGULUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_multilatera>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MULTILATERA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Multilaterae (scil. figurae) autem, quae sub pluribus, quam quatuor, rectis lineis comprehenduntur. […] Quis enim ex dictis non colligat, figuram quinque lineis rectis contentam appellari quinquilateram, et sex lineis comprehensam sexilateram, atque reliquas eodem modo. Sic etiam dici poterunt huiusmodi figurae quinquangulae, sexangulae, septangulae, etc. (El. Eucl. 29)." ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#multilateral_figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#MultOpposition>
+      a       owl:ObjectProperty , owl:SymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is one of the multiple antonyms of <SemU1>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle> ;
+      owl:disjointWith <http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHolonym>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedAgent>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 is the human agent involved in the activity  denoted by SemU_1" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#equilateral_triangle>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Equilateral_Triangle> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_aequilaterum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_QUADRILATERA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AMBLYGONIUM>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_sphaeralis>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SPHAERALIS> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt et alia duo genera angulorum, quorum prius solidos comprehendit, de quibus Euclides differit in Stereometria, quique in corporibus existunt; posterius vero sphaerales, qui in superficie sphaere constituuntue ex circulorum maximorum circumferentis, er de quibus copiose agitur in sphaericis elementis Menelai. Horum autem omnium explicatio in alium locum a nobis reiicitur, cum hic de solis planis angulis sit futurus sermo.  (Eucl. El. 26)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#spherical_angle> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#HYPERBOLE> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole_C> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#contains>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "<SemU2> is an object which is typically contained in <SemU1>" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic>
+      a       owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#DIAMETER_CIRCULI>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#usedBy>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 uses the entity denoted by SemU_1" .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_mixta>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MIXTA> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Εas (scilicet figuras) vero, quαe partim curvis, partim rectis circumscribitur, appellari mixtas. (El. Eucl 29)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_figure> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_line>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_perpendicularis> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta>
+      a       owl:NamedIndividual , <http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_MIXTA> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualiattem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta : Si vero punctum fluens cogitetur in motu vacillare, atque hinc inde titubare, appellabitur linea descripta mixta (...) (Eucl. El. 23)" ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_line> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Surface>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#Helicar_Line>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Line> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#circle_diameter>
+      a       <http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle_Diameter> , owl:NamedIndividual ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy>
+              <http://wafi.iit.cnr.it/clavius/lexicon/math/#diameter_circuli> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_TRILATERA>
+      a       owl:Class ;
+      rdfs:subClassOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM> .
+
+<http://wafi.iit.cnr.it/clavius/lexicon/math/#isActivityOf>
+      a       owl:ObjectProperty , owl:IrreflexiveProperty , owl:AsymmetricProperty ;
+      rdfs:subPropertyOf <http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic> ;
+      <http://wafi.iit.cnr.it/clavius/lexicon/math/#definition>
+              "SemU_2 is the typical activity of the person encoded in SemU_1" .

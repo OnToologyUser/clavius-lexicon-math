@@ -1,0 +1,573 @@
+{
+  "@context" : {
+    "Straight_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line"
+    },
+    "isDerivedFrom" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isDerivedFrom",
+      "@type" : "@id"
+    },
+    "hasBoundary" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary",
+      "@type" : "@id"
+    },
+    "ANGULUS_ACUTUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_ACUTUS"
+    },
+    "Mixed_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Line"
+    },
+    "DIAMETER_CIRCULI" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#DIAMETER_CIRCULI"
+    },
+    "hasSynonym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym",
+      "@type" : "@id"
+    },
+    "implies" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#implies",
+      "@type" : "@id"
+    },
+    "hasHolonym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHolonym",
+      "@type" : "@id"
+    },
+    "constitutive" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive",
+      "@type" : "@id"
+    },
+    "Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"
+    },
+    "Curved_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Curved_Line"
+    },
+    "ANGULUS_RECTUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTUS"
+    },
+    "usedFor" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#usedFor",
+      "@type" : "@id"
+    },
+    "TRIANGULUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM"
+    },
+    "FIGURA_MULTILATERA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MULTILATERA"
+    },
+    "Acute_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle"
+    },
+    "Conceptual_relations" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations",
+      "@type" : "@id"
+    },
+    "TRAPEZIUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRAPEZIUM"
+    },
+    "ANGULUS_SPHAERALIS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SPHAERALIS"
+    },
+    "lenght" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#lenght"
+    },
+    "isActivityOf" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isActivityOf",
+      "@type" : "@id"
+    },
+    "ANGULUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS"
+    },
+    "Solid_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure"
+    },
+    "FIGURA_CURVILINEA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_CURVILINEA"
+    },
+    "Interlevel_relations" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations",
+      "@type" : "@id"
+    },
+    "ANGULUS_CONVEXUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONVEXUS"
+    },
+    "LINEA_RECTA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_RECTA"
+    },
+    "Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"
+    },
+    "hasInvolvedAgent" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedAgent",
+      "@type" : "@id"
+    },
+    "Isosceles_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Isosceles_Triangle"
+    },
+    "Parabola" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Parabola"
+    },
+    "TRIANGULUM_OXYGONIUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OXYGONIUM"
+    },
+    "ALTERA_PARTE_LONGIOR_FIGURA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ALTERA_PARTE_LONGIOR_FIGURA"
+    },
+    "Circular_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Circular_Line"
+    },
+    "isDenotedBy" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy",
+      "@type" : "@id"
+    },
+    "CentreOfCircle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#CentreOfCircle"
+    },
+    "Square" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Square"
+    },
+    "Mixed_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Figure"
+    },
+    "TERM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"
+    },
+    "hasInvolvedResult" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedResult",
+      "@type" : "@id"
+    },
+    "contains" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#contains",
+      "@type" : "@id"
+    },
+    "agentive" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive",
+      "@type" : "@id"
+    },
+    "hasInvolvedInstrument" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedInstrument",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isPartOf",
+      "@type" : "@id"
+    },
+    "usedBy" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#usedBy",
+      "@type" : "@id"
+    },
+    "hasDomainOfInterest" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasDomainOfInterest",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPart",
+      "@type" : "@id"
+    },
+    "ANGULUS_RECTILINEUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTILINEUS"
+    },
+    "AntonymGrad" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymGrad",
+      "@type" : "@id"
+    },
+    "TRIANGULUM_ISOSCELES" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ISOSCELES"
+    },
+    "Spheroid" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Spheroid"
+    },
+    "SPHAERA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#SPHAERA"
+    },
+    "FIGURA_RECTILINEA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_RECTILINEA"
+    },
+    "resultingFrom" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#resultingFrom",
+      "@type" : "@id"
+    },
+    "CORPUS_PLATONICUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#CORPUS_PLATONICUM"
+    },
+    "FIGURA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA"
+    },
+    "Rhombus" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Rhombus"
+    },
+    "isRelatedTo" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isRelatedTo",
+      "@type" : "@id"
+    },
+    "degrees" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"
+    },
+    "follows" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#follows",
+      "@type" : "@id"
+    },
+    "Rectilinear_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"
+    },
+    "FIGURA_QUADRILATERA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_QUADRILATERA"
+    },
+    "hasProperty" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasProperty",
+      "@type" : "@id"
+    },
+    "Sphere" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Sphere"
+    },
+    "concerns" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#concerns",
+      "@type" : "@id"
+    },
+    "LINEA_PERPENDICULARIS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_PERPENDICULARIS"
+    },
+    "hasHyponym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyponym",
+      "@type" : "@id"
+    },
+    "Trapezoid" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid"
+    },
+    "dealsWith" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#dealsWith",
+      "@type" : "@id"
+    },
+    "LINEA_CONCHOIDEOS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CONCHOIDEOS"
+    },
+    "Parallelogram" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram"
+    },
+    "isCausedby" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isCausedby",
+      "@type" : "@id"
+    },
+    "SOLIDUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#SOLIDUM"
+    },
+    "Dinostratus_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Dinostratus_Line"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Perpendicular_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Angle"
+    },
+    "isOpposedTo" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isOpposedTo",
+      "@type" : "@id"
+    },
+    "HYPERBOLE" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#HYPERBOLE"
+    },
+    "Plane_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure"
+    },
+    "causes" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#causes",
+      "@type" : "@id"
+    },
+    "FLUXUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FLUXUM"
+    },
+    "Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure"
+    },
+    "TRIANGULUM_ACUTANGULUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ACUTANGULUM"
+    },
+    "isSourceOf" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isSourceOf",
+      "@type" : "@id"
+    },
+    "LINEA_MIXTA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_MIXTA"
+    },
+    "RECTANGULUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#RECTANGULUM"
+    },
+    "hasPurpose" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPurpose",
+      "@type" : "@id"
+    },
+    "PLANUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#PLANUM"
+    },
+    "isResultOf" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isResultOf",
+      "@type" : "@id"
+    },
+    "Obtusangle_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtusangle_Triangle"
+    },
+    "Perpendicular_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Line"
+    },
+    "ANGULUS_CONCAVUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONCAVUS"
+    },
+    "ELLIPSIS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ELLIPSIS"
+    },
+    "Geometric_Entity" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"
+    },
+    "FIGURA_TRILATERA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_TRILATERA"
+    },
+    "FIGURA_PLANA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_PLANA"
+    },
+    "hasAngle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle",
+      "@type" : "@id"
+    },
+    "PARABOLE" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#PARABOLE"
+    },
+    "LINEA_CURVA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CURVA"
+    },
+    "Right_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Triangle"
+    },
+    "TRIANGULUM_AEQUILATERUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AEQUILATERUM"
+    },
+    "Curvilinear_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Angle"
+    },
+    "Point" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Point"
+    },
+    "LATUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LATUS"
+    },
+    "Telic" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#definition"
+    },
+    "ANGULUS_SOLIDUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SOLIDUS"
+    },
+    "Convex_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Convex_Angle"
+    },
+    "TRIANGULUM_AMBLYGONIUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AMBLYGONIUM"
+    },
+    "LINEA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA"
+    },
+    "Obtuse_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle"
+    },
+    "QUADRATUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#QUADRATUM"
+    },
+    "Right_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle"
+    },
+    "Solid_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle"
+    },
+    "MultOpposition" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#MultOpposition",
+      "@type" : "@id"
+    },
+    "relates" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#relates",
+      "@type" : "@id"
+    },
+    "LINEA_CIRCULARIS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CIRCULARIS"
+    },
+    "Quadrilater_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure"
+    },
+    "Semicircle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Semicircle"
+    },
+    "denotes" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes",
+      "@type" : "@id"
+    },
+    "SEMICIRCULUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#SEMICIRCULUS"
+    },
+    "TRIANGULUM_OBTUSANGULUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OBTUSANGULUM"
+    },
+    "FIGURA_SOLIDA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_SOLIDA"
+    },
+    "CENTRUM_CIRCULI" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#CENTRUM_CIRCULI"
+    },
+    "Curvilinear_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure"
+    },
+    "ANGULUS_CURVILINEUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CURVILINEUS"
+    },
+    "hasMeronym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasMeronym",
+      "@type" : "@id"
+    },
+    "ANGULUS_PLANUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PLANUS"
+    },
+    "ANGULUS_OBTUSUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_OBTUSUS"
+    },
+    "Multilateral_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Multilateral_Figure"
+    },
+    "LINEA_HELICA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_HELICA"
+    },
+    "SUPERFICIES" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#SUPERFICIES"
+    },
+    "Conchoid_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Conchoid_Line"
+    },
+    "ANGULUS_PERPENDICULARIS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PERPENDICULARIS"
+    },
+    "Trilateral_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"
+    },
+    "Acutangle_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Acutangle_Triangle"
+    },
+    "Platonic_Solid" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Platonic_Solid"
+    },
+    "isComposedOf" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf",
+      "@type" : "@id"
+    },
+    "hasNearSynonym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasNearSynonym",
+      "@type" : "@id"
+    },
+    "Scalene_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Scalene_Triangle"
+    },
+    "PUNCTUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#PUNCTUM"
+    },
+    "CONCEPT" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#CONCEPT"
+    },
+    "hasAntonym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym",
+      "@type" : "@id"
+    },
+    "TRIANGULUM_RECTANGULUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_RECTANGULUM"
+    },
+    "Circle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle"
+    },
+    "indirectTelic" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#indirectTelic",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasOtherDenomination" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasOtherDenomination",
+      "@type" : "@id"
+    },
+    "Helicar_Line" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Helicar_Line"
+    },
+    "Ellipsis" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Ellipsis"
+    },
+    "Spherical_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle"
+    },
+    "Plane_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle"
+    },
+    "Rectangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectangle"
+    },
+    "RHOMBUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#RHOMBUS"
+    },
+    "Equilateral_Triangle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Equilateral_Triangle"
+    },
+    "Lexico-semantic_relations" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations",
+      "@type" : "@id"
+    },
+    "AntonymComp" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymComp",
+      "@type" : "@id"
+    },
+    "hasInstrument" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInstrument",
+      "@type" : "@id"
+    },
+    "INCLINATIO" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#INCLINATIO"
+    },
+    "hasHyperonym" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym",
+      "@type" : "@id"
+    },
+    "Mixtilinear_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixtilinear_Angle"
+    },
+    "PARALLELOGRAMMUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#PARALLELOGRAMMUM"
+    },
+    "FIGURA_MIXTA" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MIXTA"
+    },
+    "Circle_Diameter" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle_Diameter"
+    },
+    "Hyperbole" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Hyperbole"
+    },
+    "Surface" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Surface"
+    },
+    "CIRCULUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#CIRCULUS"
+    },
+    "ANGULUS_MIXTUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_MIXTUS"
+    },
+    "TRIANGULUM_SCALENUM" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_SCALENUM"
+    },
+    "Rectilinear_Figure" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure"
+    },
+    "TERMINUS" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#TERMINUS"
+    },
+    "Concave_Angle" : {
+      "@id" : "http://wafi.iit.cnr.it/clavius/lexicon/math/#Concave_Angle"
+    }
+  }
+}

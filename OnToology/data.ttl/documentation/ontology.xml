@@ -1,0 +1,1646 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:Ontology1378394921444="http://www.semanticweb.org/ontologies/2013/8/Ontology1378394921444.owl#"
+    xmlns:j.0="http://wafi.iit.cnr.it/clavius/lexicon/math/#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circular_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Dinostratus_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MULTILATERA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_perpendicularis">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_angle"/>
+    <j.0:definition>Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PERPENDICULARIS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ELLIPSIS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_mixta"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:allValuesFrom rdf:nodeID="A1"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectilineus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle">
+    <rdfs:subClassOf rdf:nodeID="A2"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#obtuse_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_obtusus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#spherical_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_sphaeralis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:rest rdf:nodeID="A4"/>
+    <rdf:first rdf:nodeID="A5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</xsd:minExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MIXTA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isosceles_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_isosceles"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Isosceles_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Spheroid">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#platonic_solid">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#corpus_platonicum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Platonic_Solid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AEQUILATERUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_SOLIDA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <owl:withRestrictions rdf:nodeID="A8"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#sphaera">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#sphere"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#SPHAERA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#planum"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure"/>
+    <j.0:definition>Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cubus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_PLANA"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CONCHOIDEOS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</xsd:minExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#parabola">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#parabole"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parabola"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#planum"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <owl:withRestrictions rdf:nodeID="A3"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <j.0:definition>Formal node</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isRelatedTo">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>Encodes a generic abstract relationship that links the source term to the target term</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#CONCEPT"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangulum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle"/>
+    <j.0:definition>Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. 
+Usus frequentissimus reperitur in geometria anguli recti, et linea perpendicularis, nec non anguli obtusi, et acuti, propterea docet hoc loco Euclides, quisnam angulus rectilineus apud Geometras appelletur rectus, et quaenam linea perpendicularis… Non enim alius dari potest angulus rectilineus, pareter rectum, obtusum, et  acutum. … Itaque ut in geometria concludamus angulum aliquem esse rectum, aut lineam, quae ipsum efficit, ad aliam esse perpendicularem, requiritur, et sufficit, ut probemus angulum, qui est ei deinceps. Aequalem illi esse. (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_RECTILINEA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parabola">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#follows">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <rdfs:comment>Encodes linear or temporal order </rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyponym">
+    <owl:inverseOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym"/>
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#semicirculus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#semicircle"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea"/>
+    <j.0:definition>Semicirculus vero est figura, qaue continetur sub diametro, &amp; sub ea linea, quae de circuli peripheria aufertur. </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#SEMICIRCULUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#PARALLELOGRAMMUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInstrument">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; is an event SemU and &lt;SemU2&gt; is the typical instrument, vehicle or device which is used to perform this event. </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasDomainOfInterest">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>SemU_2 is a domain of knowledge that is of interest of SemU_1 (Human)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle">
+    <owl:disjointWith rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#lenght">
+    <rdfs:range rdf:nodeID="A14"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_solidus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_angle"/>
+    <j.0:definition>Sunt et alia duo genera angulorum, quorum prius solidos comprehendit, de quibus Euclides differit in Stereometria, quique in corporibus existunt; posterius vero sphaerales, qui in superficie sphaere constituuntue ex circulorum maximorum circumferentis, er de quibus copiose agitur in sphaericis elementis Menelai. Horum autem omnium explicatio in alium locum a nobis reiicitur, cum hic de solis planis angulis sit futurus sermo.  (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SOLIDUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#surface">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_obtusus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#obtuse_angle"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:definition>Obtusus angulus est, qui recto maior est. (Eucl. El. 25)
+Obtusus vero, et acutus augeri possunt, et minui infinitis modis, cum ab illa inflexibilitate lineae perpendicularis infinitis etiam modis recta linea possit recedere, ut perspicuum est. (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_OBTUSUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_CURVILINEA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#diameter_circuli">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#circle_diameter"/>
+    <j.0:definition>Diameter autem circuli, est recta quaedam linea per centrum ducta, &amp; ex utraque parte in circuli peripheriam terminata, quae circulum bifariam secat. 
+ […] unde plures assignari potuerunt in circulo diametri, unum vero centrum duntaxat. Quod autem Euclides addit, circulum utpote per centrum, ducitur. Hinc enim fit, ut propter directum diametri per centrum transitum, utrinque aequales circumferentiae abscindantur. (dimostrato da Talete)… […] Ex hac demonstratione constat, diametrum non solum circumferentia, verumetiam totam aream circoli ecare binaria. (28)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#DIAMETER_CIRCULI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_isosceles">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#isosceles_triangle"/>
+    <j.0:definition>Isosceles autem est, quod duo tantum aequalia habet latera.[ …] 
+Ex hanc aequalitate duorum laterum trianguli Isoscelis effcitur, duos angulos super reliquum latus etiam esse aequales, ut demonstrabit Euclides propos. 5. huius libri. (El. Eucl. 29)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ISOSCELES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHyperonym">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>&lt;SemU2&gt; is the hyperonym of &lt;SemU1&gt;. The value of this relation can be given, for example, by a EuroWordNet hyperonym or by a dictionary superordinate</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#conchoid_line">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conchoid_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#straight_line">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_recta"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERMINUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <owl:intersectionOf rdf:nodeID="A17"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Sphere">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isCausedby">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>&lt;SemU1&gt; is a phenomenon or natural event which is produced by &lt;SemU2&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#CentreOfCircle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Point"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#SOLIDUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#square">
+    <j.0:isComposedOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#quadratum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Square"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#SOLIDUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis_C"/>
+    <j.0:definition>Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ELLIPSIS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedResult">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>Links process denoting terms to the resulting entities</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_aequilaterum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#equilateral_triangle"/>
+    <j.0:definition>Trilaterarum autem figurarum, aequilaterum est triangulum, quod tria latera habet aequalia. […] Porro ex aequalitate omnium trium laterum trianguli equilateri infertur, omnes tres eius angulos aequales quoque esse, ceu ad quintam propositionem huius libri demonstrabimus. (El. Eucl. 29) </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AEQUILATERUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasSynonym">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>Relates lexical units that share the same meaning</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#QUADRATUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <owl:withRestrictions rdf:nodeID="A15"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <rdf:rest rdf:nodeID="A20"/>
+    <rdf:first rdf:nodeID="A21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#corpus_platonicum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#platonic_solid"/>
+    <j.0:definition>Solida illa quinque regolaria, quae corpora Platonica dici solent. (Eucl. El. 18)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#CORPUS_PLATONICUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#CENTRUM_CIRCULI">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixtilinear_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rhombus"/>
+    <j.0:definition>Rhombus autem, quae equilatera, sed rectangula non est. […] habet enim omnia latera aequalia, angulos vero non rectos, et inaequales, quamis bini oppositi inter se aequales existant. (El. Eucl. 31)  </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rhombus"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#RHOMBUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_mixtus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixtilinear_angle"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:definition>Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. (El. Eucl. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_MIXTUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ISOSCELES">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#multilateral_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_multilatera"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Multilateral_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isSourceOf">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>&lt;SemU2&gt; is the source or origin of &lt;SemU1&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <owl:allValuesFrom rdf:nodeID="A7"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <owl:allValuesFrom rdf:nodeID="A19"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_rectilinea">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_figure"/>
+    <j.0:definition>Rectilineae figurae sunt, quae sub rectis lineis continentur. </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_RECTILINEA"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPart">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; has prototypically &lt;SemU2&gt; as one of its parts</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#concerns">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; is a phenomenon, event or situation that typically concerns of affects &lt;SemU2&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isOpposedTo">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>Encodes a relationship of  opposition holding between two phenomena or entities</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#PLANUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle">
+    <owl:disjointWith rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle"/>
+    <owl:disjointWith rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle"/>
+    <rdfs:subClassOf rdf:nodeID="A22"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"/>
+    <owl:equivalentClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#quadratum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#square"/>
+    <j.0:definition>Quadrilaterarum autem figurarum, quadratum quidem est, quod &amp; aequilaterum, &amp; rectangulum est. 
+[…] Prima figura quadrilatera dicitur Quadratum, cuius quidem omnia quatuor latera inter se aequalia existunt, omnesque anguli recti. Itaque quadrangulum aequilaterum, et non rectangulum. (El. Eucl. 30)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#QUADRATUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#SPHAERA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:minQualifiedCardinality>
+    <owl:onClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasBoundary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_OBTUSUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <owl:withRestrictions rdf:nodeID="A25"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#CONCEPT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Convex_Angle">
+    <rdfs:subClassOf rdf:nodeID="A0"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONVEXUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_PLANA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Platonic_Solid">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#scalene_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_scalenum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Scalene_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#point">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#punctum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum">
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle"/>
+    <j.0:definition>Triangulum Amblygonium, sive obtusangulum esse quoque potest vel Isosceles, vel scalenum, ut in his figuris cernitur, non autem aequilaterum, alias eadem ratione essent omnes tre anguli per ea, quae propos. 5. Ostendemus, aequales. Ideoque cum unus ponatur obtusus, omnes res obtusi, quod multo magis pugnat cum propos. 17. Et 32. Huius libri. (El. Eucl. 30)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OBTUSANGULUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#curved_line">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_curva"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curved_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <j.0:definition>The source semantic unit is a constitutive element of the target unit</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <owl:allValuesFrom rdf:nodeID="A27"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectilineus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_angle"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:definition>Cum autem, quae angulum continent lineae, rectae fuerint, rectilineus ille angulus appellatur. (El. Eucl 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTILINEUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Point">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#parabole">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#parabola"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta"/>
+    <j.0:definition>Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#PARABOLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#RECTANGULUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONCAVUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curved_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_figure"/>
+    <j.0:definition>Ex quo perspicuum est, figuras planas curvis lineis comprehensas, dici curvilineas. (El. Eucl. 29)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_CURVILINEA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#circulus">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_curvilinea"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#circle"/>
+    <j.0:definition>Circulus, est figura plana sub una linea comprehensa, quae peripheria appellatur, ad quam ab uno puncto eorum, quae intra figuram sunt posita, cadentes omnes rectae lineae inter se sunt aequales. 
+Definit hic circulum, figuram inter planas perfectissimam, docens figuram illam planam, quae unica linea circumscribitur, ad quam lineam omnes rectae lineae ductae ab uno puncto, quod intra figuram existit, sint aequales, vocari circulum. […] Qua vero ratione in circulo punctum illud medium reperiri debeat, docebit Euclides propositione 1. Tertii lib. Adiungit quoque Euclides, lineam estrema circuli, qualis est ABC, appellari Peripheriam, seu, ut Latini exponunt, circumferentiam. Potest circulus etiam hac ratione describi. Circulus est figura plana, quae describitur a linea recta finita circa alterum punctum extremum quiescens circumducta, cum in eundem cursus locum restituta fuerit, unde moveri coeperat.  […]
+Igitur Ellipsis, quamvis figura sit plana una linea circumscripta, tamen quia in ea non datur punctum, a quo ad ipsam lineam terminantem omnes rectae lineae sint aequales, circulus dici nequit.
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#CIRCULUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_SCALENUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PERPENDICULARIS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle"/>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure">
+    <rdfs:subClassOf rdf:nodeID="A9"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#relates">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#planum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_plana"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#PLANUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogrammum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogram"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera"/>
+    <j.0:definition>Parallelogrammum est figura quadrilatera, cuius bina opposita latera sunt paralella, seu aequidistantia. […] Sunt autem quatuor solum parallelogramma; quadratum, figura altera parte longior, Rhombus, et Rhomboides, quorum priora duo rectangula, quod omnes angulos habeant rectos, posteriora vero duo non rectangula vocantur, quod nullus in eis angulus esista rectus. […] Itaque possumus quadrilateras figuras, (ut et antiqui Geometrae) dividere in Parallelogrammum, et Trapezium. Parallelogrammum cursus in rectangulum, at aequilaterum, quale est  Quadratum : in nec rectangulum, nec aequilaterum, quale est Rhomboides; in rectangulum, sed non aequilaterum, quali est figura altera parte longior. Et in aequilateru, sed non rectangulum, cuiusmodi est Rhombus. (El. Eucl. 32)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#PARALLELOGRAMMUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_RECTANGULUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Multilateral_Figure">
+    <rdfs:subClassOf rdf:nodeID="A24"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OBTUSANGULUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasNearSynonym">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>Relates lexical units with very similar cognitive and denotational meaning</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <owl:withRestrictions rdf:nodeID="A30"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_planus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_angle"/>
+    <j.0:concerns rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:definition>Planus vero angulus, est duarum linearum in plano se mutuo tangentium, et non in directum iacentium, alterius al alteram inclinatio. 
+Declarat, quidam sit angulus planus, dicens: Quandocunque duae linae in plana aliqua superficie invicem concurrunt, et non in directum constituuntur, efficietur ex huiusmodi concursu, seu inclinatione unius ad alteram, angulus, qui dicitur planus, propterea quod in plana constituatur superficie. (El.E. 25) … Itaque ut linae rectae efficiant angulum, necesse est, ut post concursum productae se mutuo secent (EE 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PLANUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole_C">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Hyperbole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#spheroid">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Spheroid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_helica">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#helicar_line"/>
+    <j.0:definition>Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole,Parabole,Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; linea Conchoideos, de qua Nicomedes; linea Helica, de qua Archimedes in libro de lineis spiralibus tractationem instituit, et aliae huiusmodi. In solido, seu superficie curva sunt alterius generis lineae helicae, quam ea ab Archimede descripta, qualis est illa, quae circa cylindrum aliquem convoluitur; nec non ea, quae circa conum existit, vel etiam quae circa sphaeram, cuiusmodi sunt spirae illae, quas sol describit ab ortu in occasum , ut in sphaera docuimus. (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_HELICA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum">
+    <owl:sameAs rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle"/>
+    <j.0:definition>Omne triangulum oxygonium, sive acutangulum, potest esse vel aequilaterum, vel isosceles, vel scalenum, ut cernere licet in triangulis, quae in specibus prioris divisionis spectanda exhibuimus, ne eadem hic frustra repetantur. (El. Eucl 30)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ACUTANGULUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FLUXUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figure"/>
+    <j.0:definition>Figura est, quae sub aliquo, vel aliquibus terminis comprehenditur. 
+ Non omnis quantitas terminos possidens Figura dici potest, ne lineam fnitam figuram appellare cogamur : Sed ea solum magnitudines, quae latitudinem habent, nempe superficies terminatae. Et quae profunditatem adeptae quoque sunt, t solida finita, Figurae nomine appellabuntur…. Itaque termini debent quantitatem, quae figura dicitur,a mbire, et non tantum terminare. … Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cbus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae.
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRAPEZIUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#INCLINATIO">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle_Diameter">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#CORPUS_PLATONICUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#terminus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERMINUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtuse_Angle">
+    <owl:disjointWith rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle"/>
+    <rdfs:subClassOf rdf:nodeID="A26"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_acutus">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#acute_angle"/>
+    <j.0:definition>Acutus vero, qui minor est recto. (Eucl. El. 25). 
+Obtusus vero, et acutus augeri possunt, et minui infinitis modis, cum ab illa inflexibilitate lineae perpendicularis infinitis etiam modis recta linea possit recedere, ut perspicuum est. (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_ACUTUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isResultOf">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>&lt;SemU1&gt; is an entity which is the result, effect or by-product of the event expressed by &lt;SemU2&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</xsd:maxInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure">
+    <rdfs:subClassOf rdf:nodeID="A12"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SOLIDUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#indirectTelic">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>SemU_1 denotes the ‘instrument’ (either body part or phenomenon) serving for SemU_2. SemU_1 is either the subject of a verb which (generally) corresponds to the verbal base of  SemU_2 or its instrumental complement</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_curvilineus">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_angle"/>
+    <j.0:definition>Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. (Eucl. El 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CURVILINEUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>Sense opposition between pairs of nouns or verbs</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#sphere">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#sphaera"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Sphere"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#PARABOLE">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Acutangle_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasMeronym">
+    <owl:inverseOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHolonym"/>
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium">
+    <j.0:hasNearSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum"/>
+    <owl:sameAs rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle"/>
+    <j.0:definition>Amblygonium autem, quod obtusum angulum habet. 
+Triangulum Amblygonium, sive obtusangulum esse quoque potest vel Isosceles, vel scalenum, ut in his figuris cernitur, non autem aequilaterum, alias eadem ratione essent omnes tre anguli per ea, quae propos. 5. Ostendemus, aequales. Ideoque cum unus ponatur obtusus, omnes res obtusi, quod multo magis pugnat cum propos. 17. Et 32. Huius libri. (El. Eucl. 30)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AMBLYGONIUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_line">
+    <j.0:isComposedOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#point"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#dealsWith">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>For Domain_of_Knowledge entries, SemU_2 is a topic that the domain denoted by SemU_1 deals with</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTILINEUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#line">
+    <j.0:isComposedOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#point"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isDenotedBy">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conchoid_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_concavus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#concave_angle"/>
+    <j.0:definition>Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. Ex hisce porro lineis possunt curvilinei anguli tribus variari modis, et mixti duobus, pro varia inclinatione, seu habitudine linearum curvarum, utpote secundum convexum, concavum, ceu in propositis angulis plane, et aperte perspicitur.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONCAVUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_curva">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#curved_line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CURVA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LATUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#SEMICIRCULUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#resultingFrom">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>SemU_1 is the entity resulting from the activity denoted by SemU_2 </j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Isosceles_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ALTERA_PARTE_LONGIOR_FIGURA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtusangle_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CIRCULARIS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedInstrument">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>SemU_2 is the body_part through which SemU_1 is realized</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Ellipsis">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#semicircle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#semicirculus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Semicircle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Acutangle_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum"/>
+    <j.0:definition>Trilaterae quidem, quae sub tribus. 
+Affirmans Euclides, eas rectilineas figuras dici trilateras, qaue tribus rectis lineis circumscribitur, aperte nobis annui, quonam modo triangulum definiri debeat. Cum enim in rectilineis figuris tot sint anguli, quo latera, seu rectae lineae, ex quibus constant, dicetur triangulum, figura tribus rectis lineis contenta, cuius omnes species iam iam adducentur. (29)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_TRILATERA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_perpendicularis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasProperty">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>SemU_1 has SemU_2 as property (or as one of its properties)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#concave_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_concavus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Concave_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_rectangulum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#right_triangle"/>
+    <j.0:definition>Ad haec etiam, trilatera rum figurarum, rectangulum quide triangulum est, quod rectum angulum habet. (El. Eucl. 30)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_RECTANGULUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#helicar_line">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_helica"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Helicar_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="A32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rhombus">
+    <rdfs:subClassOf rdf:nodeID="A16"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#causes">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; typically causes &lt;SemU2&gt; as part of its natural constitution</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Equilateral_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasOtherDenomination">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <j.0:definition>Relates a term to another denomination provided</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura"/>
+    <j.0:definition>Quadrilaterae quidem, quae sub quator. τετράπλευρα δὲ τὰ ὑπὸ τεσσάρων (vedi def. precedente: rectilineae figurae)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_QUADRILATERA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_RECTA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#altera_parte_longior_figura">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#quadrilater_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_quadrilatera"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ALTERA_PARTE_LONGIOR_FIGURA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymComp">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym"/>
+    <j.0:definition>&lt;SemU2&gt; is the complementary antonym of &lt;SemU1&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#circle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#circulus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#SUPERFICIES">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezoid">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezium"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Hyperbole">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CURVILINEUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#right_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_rectangulum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#usedFor">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>&lt;SemU2&gt; is the typical function of &lt;SemU1&gt;. This relation usually applies to instruments or devices to connect them with the activity in which they are used or to their typical purpose.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#centrum_circuli">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#centre_of_circle"/>
+    <j.0:definition>Centrum circuli.  Docet, punctum  illud intra circulum,a  quo omnes lineae rectae ad circumferentiam ductae sunt aequales, appellari centrum circuli. […] Caeterum, ut punctum aliquod circuli dicatur centrum, satis est, ut ab beo tres duntaxat lineae accidentes in peripheriam sint aequales inter se, ut demonstrat Euclides propositione 9. Lib.3.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#CENTRUM_CIRCULI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isPartOf">
+    <owl:inverseOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPart"/>
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; is a part of &lt;SemU2&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</xsd:maxExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#circular_line">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_circularis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circular_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_MIXTUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#centre_of_circle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#centrum_circuli"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#CentreOfCircle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_circularis">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#circular_line"/>
+    <j.0:definition>Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualitatem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta : Si vero punctum fluens cogitetur in motu vacillare, atque hinc inde titubare, appellabitur linea descripta mixta : si denique punctum fluens in suo motu, non vacillet, sed in orbem feratur uniformi quodam motu, atque distantia certo aliquo puncto, circa quod fertur, vocabitur descripta illa linea, circularis. (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CIRCULARIS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#implies">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <j.0:definition>Encodes a reciprocal direct implication holding between SemU_1 and SemU_2</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#superficies">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#surface"/>
+    <j.0:definition>Superficies est, quem longitudinem, latitudinem tantum habet. (24/25)
+Post lineam, quae est prima quantitatis continuae species, unicamque habet dimensionem, definit superficiem, quae secundam magnitudinis speciem constituit, additque priame dimensioni secondum longitudinem, alteram secundum latitudinem. Nam in superficie reperitur, non solo longitudo, ut in linea, verum etiam latitudo, sine tamen omni profunditate. (…) Alii describentes superficiem dicunt, eam esse corporis terminum : Alii vero, magnitudinem duobus constantem intervallis. Potest enm superficie dividi, et secari duo bus modis, uno quidem secundum longitudinem, altero evro secundum latitudinem. (Eucl. El. 24/25). Superficiei autem extrema, sunt lineae. (Eucl. El. 25)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#SUPERFICIES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure"/>
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isComposedOf">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU1&gt; is composed of &lt;SemU2&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAngle">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_solida">
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#solidum"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_figure"/>
+    <j.0:definition>Figurae unico comprehensae termino sunt, Circulus, Ellipsis, Sphaera, Sphaeroides, et aliae huiusmodi: Pluribus vero terminis inclusae figurae sunt, Triangulum, Quadratum, cbus, parami, etc. Superifices terminatae nuncupantur  figurae planae: Solida autem circumscripta, figurae solidae, sive corporeae.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_SOLIDA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#curvilinear_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_curvilineus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Scalene_Triangle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OXYGONIUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SPHAERALIS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#punctum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#point"/>
+    <j.0:definition>Punctum est, cuius pars nulla est. Ante omia vero euclides more Mathematicorum rem propositam exorditur a principiis, initio facto a definitionibus, quarum prima punctum esplica, docens illud dici punctum in quantitate continua, quod nullas habet partes. Quae equidem definitio planius ac faciulius percipietur, si prius intelligamus, quantitatem continuam triplices habere partes, unam secondum longitudinem, alteras secundum latitudinem, et secundum profunditatem altitudinemve alteras ; quanquam non omnis quantitas omnes has partes habet, sed  quaedam unicas tantum secundum longitudinem; quaedam duplices, ita ut illis adiiciat partes etiam latitudinis; quidam denique praeter duplices has partes, tertias quoque altitudinis, sive profunditatis continet. Quantitas enim omnis continua aut longa solum est, aut longa simul, et lata, aut longa, lata atque profunda. Neque aliam dimensionem habere potest res ulla quanta, (…). Itaque quod in quantiate continua, sive magnitudine existit, intelligituraque sine omni parte, ita ut neque longum, neque latum, neque profundum esse cogitetur, (ut nimirum excludamus animam rationalem, Nunc vel Instans temporis, atque unitatem, quae etiam partes non habet) id appellatur ab euclide, atque a Geometris punctum. (...) Denique in magnitudine id concipi debet esse punctum, quod in numero unitas, quodque in tempore instans. Sunt enim et cncipienda individua. (Eucl. El. 23)
+
+Lineae autem termini, sunt puncta. 
+Docet, quaenam sint extrema lineae cuiuuis, seu termini, dicens lineam terminari, sive claudi utrinque punctis ; Non quod omnis linea terminos habeat; quomodo enim lineae infinitae terminos assignare poterimus? Qua etiam ratione in linea circulari extremum aliquod deprehendemus? Sed quod linea quaelibet habens extrema, in suis extremitatibus puncta recipiat. Ut superior linea AB, extrema habet puncta A, et B. idemque in omnibus lineis terminatis, ac fnitis intelligendum est, ita ut earum extremitates sola esse puncta cogitemus. (Eucl. El. 23)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#PUNCTUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_scalenum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#scalene_triangle"/>
+    <j.0:definition>Scalenum vero est, quod tria inaequalia habet latera. (29)  […]
+Hic denique ex inaequalitate omnium laterum trianguli Scaleni colligitur omnium angulorum inaequalitas, ut ostendetur propos. 18. Huius 1. Lib. (El. Eucl. 29)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_SCALENUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogram">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#parallelogrammum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#AntonymGrad">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym"/>
+    <j.0:definition>&lt;SemU2&gt; is the gradable antonym of &lt;SemU1&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_oxygonium">
+    <j.0:hasSynonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_acutangulum"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#acutangle_triangle"/>
+    <j.0:definition>Oxygonium vero, quod tres habet acutos angulos.
+Omne triangulum Oxygonium, sive acutangulum, potest esse vel aequilaterum, vel isosceles, vel scalenum, ut cernere licet in triangulis, quae in speciebus prioris divisionis spectanda exhibuimus, ne eadem hic frustra repetantur. (El. Eucl. 30)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_OXYGONIUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#convex_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_convexus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Convex_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onProperty rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#acute_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_acutus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Acute_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#solid_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_solidus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_ACUTUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_MIXTA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FLUXUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CURVA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Straight_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#line"/>
+    <j.0:hasOtherDenomination rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum"/>
+    <j.0:definition>Linea vero, longitudo latitudinis expers.
+Definit hic lineam, primam speciem magnitudinis, quam dicit esse quantitatem longam dutaxat, non autem latam intellige neque profundam. A qua enim quanti tate excluditur latitudo, ab eadem etiam necessario profunditas removetur, non autem contra. Lineam autem hanc, sive longitudinem absque latitudine, non absurde concipere, intelligerque poterimus ex termino loci alicuius partim illuminati, atque partim obumbrati. (…) Ut si punctum A, fluere ntelligatur ex A, in B, vestigium effectum AB, linea appellabitur, cum vere intervallum inter duo puncta A atque B, comprehensum sit longitudo quaedam carens omni latitudine, propterea quod punctum A, omni privatum dimensione, eam efficere nulla ratione potuerit. Hinc factum est, ut alii dixerint, lineam nil esse aliud, quam puncti fluxum : Alii, vero, magnitudinem uni cintentam intervallo. Potest enim linea unico tantum modo, utpote secundum longitudinem secari, atque dividi. (Eucl. El. 23)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangulum">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectangle"/>
+    <j.0:definition>Vel contra, rectangulum, et non aequilaterum, nequaquam quadratum appellabitur. (El. Eucl. 30) 
+Altera vero parte longior figura est, quae rectangula quidem, at aequilatera non est. (El. Eucl. 31)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#RECTANGULUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#HYPERBOLE">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasPurpose">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>SemU_2 encodes the purpose of the domain of knowledge or the activity denoted by SemU_1</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#definition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#degrees">
+    <rdfs:range rdf:nodeID="A11"/>
+    <rdfs:domain rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#right_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_rectus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Right_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#inclinatio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#INCLINATIO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isDerivedFrom">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>&lt;SemU1&gt; is derived from another object &lt;SemU2&gt; through a certain process of alteration</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_convexus">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#convex_angle"/>
+    <j.0:definition>Angulus omnis planus conficitur aut ex lineis duabus rectis, qui quidem rectilineus dicitur, et de quo solum hic agit Euclides : aut ex duabus curvis, quem curvilineum vocare licet; aut ex una curva et altera recta, qui non inepte mixtus appellatur. Ex hisce porro lineis possunt curvilinei anguli tribus variari modis, et mixti duobus, pro varia inclinatione, seu abitudine linearum curvarum, utpote secundum convexum, concavum, ceu in propositis angulis plane, et aperte perspicitur.</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_CONVEXUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_recta">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#straight_line"/>
+    <j.0:definition>Recta linea est, quae ex aequo sua interiacet puncta.
+Triplex omnino est linea apud Mathematicos, recta, circularis, quam et curvam dicunt, et mixta, sive composita ex utraque. Ex his describit hoc loco Euclides lineam rectam, quam dicit esse eam, quae aequaliter inter sua puncta extenditur, hoc est, in qua nullum punctum intermedium ab extremis sursum, aut deorsum, vel huc, atque illuc deflectendo substulat; in qua denique nihil flexuosum reperitur. Hanc nobis ad viuum esprimi filum aliquod tenue sumam vi extentum : In eo enim omens partes mediae cum extremis aequalem obtinent situm, neque ulla est alia sublimior, aut umilio, sed omnes equabiliter inter extremos fines positae progrediuntur. Proclus hanc definitoionem exponens ait, tunc demum lineam aliquam ex aequo sua interiacere puncta, quando aequale occupa spatium ei quod inter sua situm est puncta exrema. (...)
+Plato rectam lineam pulchre sic definit : linea recta est, cuius media obumbrant extrema. (…); quod quidem non contingit in lineis non rectis… Archimeds vero ait, lineam rectam esse minimam earum, quae terminos habent eosdem; (…) Campanus denique describens rectam lineam, vocat eam brevissimam ex uno puncto in aliud extensionem.
+Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualiattem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta (...) (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_RECTA"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</xsd:maxExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_PERPENDICULARIS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#trilateral_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_trilatera"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trilateral_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Trapezoid">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Quadrilater_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixtilinear_angle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_mixtus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixtilinear_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezium">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#trapezoid"/>
+    <j.0:definition>Praeter has autem, reliquae quadrilaterae figurae, trapezia appellentur.  
+Reliquas omnes figuras quadrilateras, quae a praedictis quatuor differunt, ita ut neque latera omnia aequalia, neque omnes angulos aequales, seu rectos, neque latera bina opposita; neque angulos binos oppositos habeant inter sese aequales, generali vocabulo Trapezia nominat. (El. Eucl. 31)
+[...] Itaque possumus quadrilateras figuras, (ut et antiqui Geometrae) dividere in Parallelogrammum, et Trapezium... Trapeziorum quoque aliud quidem habet duo latera opposita parallela, alia vero minime; aliud autem nulla opposita latera habet paralella. (El. Eucl. 32)
+</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRAPEZIUM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_RECTUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_HELICA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#PUNCTUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Semicircle">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Curvilinear_Figure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#CIRCULUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#obtusangle_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_obtusangulum"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_amblygonium"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Obtusangle_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_PLANUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#latus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LATUS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#rectilinear_figure">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_rectilinea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Rectilinear_Figure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#plane_angle">
+    <j.0:isRelatedTo rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#surface"/>
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_planus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Plane_Angle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_conchoideos">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#conchoid_line"/>
+    <j.0:definition>Sunt autem plurima genera linearum mist rum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole,Parabole,Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; linea Conchoideos, de qua Nicomedes;(...). (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_CONCHOIDEOS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Mixed_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Square">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Parallelogram"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Concave_Angle">
+    <rdfs:subClassOf rdf:nodeID="A23"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis_C">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ellipsis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Ellipsis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#RHOMBUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:withRestrictions rdf:nodeID="A31"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_perpendicularis">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_line"/>
+    <j.0:definition>Cum vero recta linea super rectam consistens lineam eos, qui sunt deinceps, angulos aequales inter se fecerit, rectus est uterque aequalium angulorum: Et quae insistit recta linea, perpendicularis vocatur eius, cui insistit. 
+Usus frequentissimus reperitur in geometria anguli recti, et linea perpendicularis, nec non anguli obtusi, et acuti, propterea docet hoc loco Euclides, quisnam angulus rectilineus apud Geometras appelletur rectus, et quaenam linea perpendicularis… Non enim alius dari potest angulus rectilineus, pareter rectum, obtusum, et  acutum. … Itaque ut in geometria concludamus angulum aliquem esse rectum, aut lineam, quae ipsum efficit, ad aliam esse perpendicularem, requiritur, et sufficit, ut probemus angulum, qui est ei deinceps. Aequalem illi esse. (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_PERPENDICULARIS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_ACUTANGULUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_multilatera">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#multilateral_figure"/>
+    <j.0:definition>Multilaterae (scil. figurae) autem, quae sub pluribus, quam quatuor, rectis lineis comprehenduntur. […] Quis enim ex dictis non colligat, figuram quinque lineis rectis contentam appellari quinquilateram, et sex lineis comprehensam sexilateram, atque reliquas eodem modo. Sic etiam dici poterunt huiusmodi figurae quinquangulae, sexangulae, septangulae, etc. (El. Eucl. 29).</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MULTILATERA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#MultOpposition">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasAntonym"/>
+    <j.0:definition>&lt;SemU2&gt; is one of the multiple antonyms of &lt;SemU1&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Solid_Angle">
+    <owl:disjointWith rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Spherical_Angle"/>
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Angle"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasHolonym">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Lexico-semantic_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hasInvolvedAgent">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#agentive"/>
+    <j.0:definition>SemU_2 is the human agent involved in the activity  denoted by SemU_1</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#equilateral_triangle">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#triangulum_aequilaterum"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Equilateral_Triangle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#denotes">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Interlevel_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_QUADRILATERA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#TRIANGULUM_AMBLYGONIUM">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#angulus_sphaeralis">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#spherical_angle"/>
+    <j.0:definition>Sunt et alia duo genera angulorum, quorum prius solidos comprehendit, de quibus Euclides differit in Stereometria, quique in corporibus existunt; posterius vero sphaerales, qui in superficie sphaere constituuntue ex circulorum maximorum circumferentis, er de quibus copiose agitur in sphaericis elementis Menelai. Horum autem omnium explicatio in alium locum a nobis reiicitur, cum hic de solis planis angulis sit futurus sermo.  (Eucl. El. 26)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#ANGULUS_SPHAERALIS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole">
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta"/>
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#hyperbole_C"/>
+    <j.0:definition>Sunt autem plurima genera linearum mistarum: quaedam enim sunt uniformes, quaedam difformes. Uniformium cursus aliae sunt in plano, aliae in solido. In plano sunt Hyperbole, Parabole, Ellipsis, de quibus agit copiosissime Apollonius in conicis elementis; (...). (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#HYPERBOLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#contains">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#constitutive"/>
+    <j.0:definition>&lt;SemU2&gt; is an object which is typically contained in &lt;SemU1&gt;</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Conceptual_relations"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#DIAMETER_CIRCULI">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#usedBy">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>SemU_2 uses the entity denoted by SemU_1</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#figura_mixta">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_figure"/>
+    <j.0:definition>Εas (scilicet figuras) vero, quαe partim curvis, partim rectis circumscribitur, appellari mixtas. (El. Eucl 29)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_MIXTA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#perpendicular_line">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_perpendicularis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Perpendicular_Line"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#linea_mixta">
+    <j.0:denotes rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#mixed_line"/>
+    <j.0:hasHyperonym rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#fluxum"/>
+    <j.0:definition>Quemadmodum autem matematici per fluxum puncti imaginarium concipiunt describi lineam, ita per qualiattem fluxus puncti qualitatem lineae descriptae intelligunt. Si namque punctum recta fluere concipiatur per brevissimum spatium, ita ut neque in han partem, neque in illam deflectat, sed aequabilem quendam motum, atque incessum teneat, ducetur linea illa descripta, recta : Si vero punctum fluens cogitetur in motu vacillare, atque hinc inde titubare, appellabitur linea descripta mixta (...) (Eucl. El. 23)</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#LINEA_MIXTA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Surface">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Geometric_Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#Helicar_Line">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Line"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#circle_diameter">
+    <j.0:isDenotedBy rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#diameter_circuli"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Circle_Diameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#FIGURA_TRILATERA">
+    <rdfs:subClassOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#TERM"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wafi.iit.cnr.it/clavius/lexicon/math/#isActivityOf">
+    <rdfs:subPropertyOf rdf:resource="http://wafi.iit.cnr.it/clavius/lexicon/math/#Telic"/>
+    <j.0:definition>SemU_2 is the typical activity of the person encoded in SemU_1</j.0:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+</rdf:RDF>
